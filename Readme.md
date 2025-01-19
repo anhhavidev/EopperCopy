@@ -1,0 +1,1 @@
+﻿# chứa hướng dẫn , cài đặt ...để git họ nhìn thấy mỗi repo nên có cái này 
