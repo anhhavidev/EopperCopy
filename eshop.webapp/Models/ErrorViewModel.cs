@@ -4,6 +4,8 @@ namespace eshop.webapp.Models
     {
         public string? RequestId { get; set; }
         public int id;
+        // lấy từ git về trường name nhé
+        public string name {get ;set;}
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
 }
