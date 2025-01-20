@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using eShopSolution.Data.Entities;
 
 namespace eshopercopy.data.Enity
 {
@@ -17,7 +18,7 @@ namespace eshopercopy.data.Enity
 
         public bool? IsFeatured { get; set; }
 
-        //public List<ProductInCategory> ProductInCategories { get; set; }
+        public List<ProductInCategory> ProductInCategories { get; set; }
 
         public List<OrderDetail> OrderDetails { get; set; }
 

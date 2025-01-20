@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using eShopSolution.Data.Entities;
 using eShopSolution.Data.Enums;
 
 namespace eshopercopy.data.Enity
@@ -15,7 +16,7 @@ namespace eshopercopy.data.Enity
         public int? ParentId { set; get; }
         public Status Status { set; get; }
 
-        //public List<ProductInCategory> ProductInCategories { get; set; }
+        public List<ProductInCategory> ProductInCategories { get; set; }
 
         public List<CategoryTranslation> CategoryTranslations { get; set; }
 
